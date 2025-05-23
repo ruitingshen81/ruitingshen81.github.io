@@ -22,6 +22,13 @@ Work experience
    adaptive test process and response data.
    * Developed and implemented a scalable data analysis pipeline to assess the fit of polytomous item response models across large-scale item response datasets.
 
+* **Data Processing Researcher @ [Computational Social Policy Lab](https://policylab.hks.harvard.edu/)** (*2024–current*)
+   * Supervisor: [Alex Chohlas-Wood, Ph.D.](https://alexchohlaswood.com)
+   * Applied an OpenAI large language model (LLM) to extract structured information from lawsuit documents with the
+   goal of building an automatic pipeline to create a new databas.
+   * Cleaned and standardized manually coded case data from CSV files in the past 10 years to support model evaluation
+   and accuracy benchmarking.
+
 * **Data Management Specialist @ Data Services, New York University** (*2025–current*)
    * Supervisor: [Vicky Rampin, M.S.](https://vicky.rampin.org) 
    * Respond to inquiries to data and code management from students, faculty, and staff via
