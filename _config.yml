@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "default"
+site_theme               : "time-machine"
 title                    : "Ruiting Shen"
 title_separator          : "-"
 name                     : &name "Ruiting Shen"
@@ -24,10 +24,10 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Ruiting Shen"
-  pronouns         : # example: "she/her"  
-  bio              : "A3SR student"
-  location         : "NYC"
-  employer         : "NYU"
+  pronouns         : "she/her/hers"  
+  bio              : "Master's student in Applied Statistics& Psychometrics Measurement"
+  location         : "New York, NY"
+  employer         : "NYU PRIISM, NYU Data Services"
   uri              : # URL
   email            : "rs8422@nyu.edu" 
 
@@ -51,7 +51,7 @@ author:
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : # "bsky.app" # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
