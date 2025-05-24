@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "time-machine"
+site_theme               : "default"
 title                    : "Ruiting Shen"
 title_separator          : "-"
 name                     : &name "Ruiting Shen"
