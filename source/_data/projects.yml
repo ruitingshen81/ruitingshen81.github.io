@@ -1,0 +1,21 @@
+- title: "Understanding the Evolution of the Individual Response Process"
+  status: "preprint out"
+  period: "2025 - Present"
+  category: "Psychometrics"
+  description: "Identifying item-level heterogeneous behavioral profiles and comparing the item to test stepwise modeling 
+  approach to the single step parsimonous test-level modeling approach "
+  tags:
+    - "Process Data"
+    - "Sequence Analysis"
+    - "LCA"
+    - "HMM"
+    - "Clustering"
+  collaborators:
+    - name: "Klint Kanopka"
+      link : "https://klintkanopka.com/"
+      role: "Advisor"
+  publications:
+    - title: "Understanding the evolution of the individual response process: An exploratory approach"
+      link: "https://osf.io/yczgu_v1"
+  website: "https://osf.io/yczgu_v1"
+  featured: enable

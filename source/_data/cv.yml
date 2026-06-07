@@ -1,0 +1,184 @@
+education:
+  - degree: "Ph.D. in Educational Psychology: Quantitative Methods"
+    institution: "University of Wisconsin-Madison"
+    period: "2026 incoming"
+    description: "Madison, WI, US"
+
+  - degree: "M.S. in Applied Statistics for Social Science Research"
+    institution: "New York University"
+    period: "2024 - 2026"
+    description: "New York, NY, US. Advisor: Klint Kanopka, Ph.D."
+
+  - degree: "M.A. in Human Development Research and Policy"
+    institution: "New York University"
+    period: "2022 - 2023"
+    description: "New York, NY, US"
+
+awards_title: "Honors & Awards (Recent 3 Years)"
+awards:
+  - title: "NYU IT Student Employee Excellence Award"
+    issuer: "New York University"
+    date: "2026"
+    description: ""
+
+  - title: "NYU Steinhardt Samuel Eshborn Service Award"
+    issuer: "New York University"
+    date: "2026"
+    description: ""
+
+  - title: "International Meeting of the Psychometric Society Student Datathon Third Prize"
+    issuer: "International Meeting of the Psychometric Society"
+    date: "2025"
+    description: ""
+
+  - title: "PRIISM Opportunity Fellowship"
+    issuer: "New York University"
+    date: "2024"
+    description: "$10,400"
+
+
+presentations:
+  - title: "A Hidden Markov Approach to Understand Behavior Transitions in Test-Taking Processes"
+    authors: "Shen, R., & Kanopka, K."
+    venue: "Annual Meeting of the National Council on Measurement in Education"
+    year: "2026"
+    description: ""
+
+  - title: "Understanding the evolution of individual response process: An exploratory approach"
+    authors: "Shen, R., & Kanopka, K."
+    venue: "International Meeting of the Psychometric Society"
+    year: "2025"
+    description: ""
+
+  - title: "Tracking Behavioral Patterns in a Computerized Math Assessment: A Latent Class Approach"
+    authors: "Shen, R., & Kanopka, K."
+    venue: "NYU Society for Statistics Conference, New York, NY. Chapter of the American Statistical Association."
+    year: "2025"
+    description: "Paper presentation."
+
+  - title: "Data augmentation for psychometric applications using a mixed-subjects design"
+    authors: "Kanopka, K., van Loon, A., Huang, Y., Shen, R., & Tang, H."
+    venue: "Pacific Quantitative Psychometrics Conference"
+    year: "2025"
+    description: ""
+
+publications:
+  - title: "Risk factors for depression in tuberculosis patients: a meta-analysis"
+    authors: "Shen, R., Zong, K., Liu, J., & Zhang, L."
+    venue: "Neuropsychiatric Disease and Treatment, 18, 847"
+    year: "2022"
+    type: "Journal Article"
+    link: ""
+
+  - title: "Evaluating Robots Like Human Infants: A Case Study of Learned Bipedal Locomotion"
+    authors: "Crowley, D., Cole, W. G., Hospodar, C. M., Shen, R., Adolph, K. E., & Fern, A."
+    venue: "arXiv preprint arXiv:2507.06426"
+    year: "2025"
+    type: "Conference Proceeding"
+    link: ""
+
+  - title: "Infants' developing environment: Integration of computer vision and human annotation to quantify where infants go, what they touch, and what they see"
+    authors: "Han, D.*, Aziere, N.*, Wang, T.*, Ossmy, O., Krishna, A., Wang, H.*, Shen, R.*, Todorovic, S., & Adolph, K. E."
+    venue: "ICDL, 2024 IEEE"
+    year: "2024"
+    type: "Conference Proceeding"
+    link: ""
+
+  - title: "Understanding the evolution of the individual response process: An exploratory approach"
+    authors: "Shen, R., & Kanopka, K."
+    venue: "PsyArXiv"
+    year: "2026"
+    type: "Preprint"
+    link: "https://doi.org/10.31234/osf.io/yczgu_v1"
+
+experience:
+  - position: "Data Management Specialist"
+    institution: "NYU Data Services (NYU Libraries and IT)"
+    period: "2025 - 2026"
+    description: "Supervisor: Nicholas Wolf, Ph.D.； Vicky Rampin, MS"
+    responsibilities:
+      - "Provided data management support to faculty, staff, and students at NYU."
+      - "Taught Data Carpentry workshops."
+      - "Developed an automatic pipeline to process missing data in political voting datasets across all U.S. states over the past 5 years, and ran the pipeline on NYU HPC."
+
+  - position: "Researcher"
+    institution: "The Algorithms, Data, and Public Policy Technology (ADAPPT) Lab"
+    period: "2025 - 2026"
+    description: "Supervisor: Alex Chohlas-Wood, Ph.D."
+    responsibilities:
+      - "Worked on API-based web scraping and automated data collection via Crontab on NYU's High Performance Computing system."
+      - "Developed a computer vision-based pipeline to crop traffic camera images across New York City and used LLMs to predict vehicle emissions."
+      - "Built an end-to-end data processing workflow, including PDF-to-text conversion, structured output generation using the ellmer R package, and automation with bash scripting."
+
+  - position: "PRIISM Fellowship Psychometrics Research Assistant"
+    institution: "Department of Applied Statistics, Social Science, and Humanities, New York University"
+    period: "2024 - 2025"
+    description: "Supervisor: Klint Kanopka, Ph.D."
+    responsibilities:
+      - "Led a project using NAEP process data and developed modeling and clustering methods to identify latent behavior patterns from log data."
+      - "Engineered LLM-based data augmentation workflows, including prompt design, data collection scripts, and Git/GitHub project management."
+      - "Developed and implemented a scalable data analysis pipeline to assess the fit of polytomous item response models across large-scale item response datasets."
+
+  - position: "Lab Staff"
+    institution: "Infant Action Lab, Psychology Department, New York University"
+    period: "2023 - 2024"
+    description: "Principal Investigator: Karen Adolph, Ph.D."
+    responsibilities:
+      - "Assisted with computer vision algorithm fine-tuning for psychology research."
+      - "Developed efficient and reproducible R scripts to analyze a large simulated robot gait dataset."
+      - "Trained and supervised undergraduate research assistants in data collection protocols, ensuring accuracy and consistency across studies."
+
+teaching:
+  - course_name: "Practicum in Applied Statistics: Statistical Computing"
+    institution: "New York University"
+    period: "Fall 2025"
+    role: "Lab Instructor/Graduate Adjunct"
+    description: "Graduate level. Instructor: Klint Kanopka, Ph.D."
+
+  - course_name: "Statistics, Math, and Computing Bootcamp"
+    institution: "New York University"
+    period: "Summer 2025"
+    role: "Teaching Assistant"
+    description: "Graduate level. Instructor: Eric Novik, MS."
+
+  - course_name: "Intermediate Quantitative Methods: The General Linear Model"
+    institution: "New York University"
+    period: "Fall 2023, Fall 2024"
+    role: "Lab Instructor/Graduate Adjunct"
+    description: "Graduate level. Instructor: Ravi Shroff, Ph.D."
+
+
+skills:
+  "Programming and Software":
+    - "Advanced R: tidyverse, purrr, base R, ellmer"
+    - "Terminal"
+    - "Git/GitHub"
+    - "Python, including OpenAI library"
+    - "SQL: SQLite"
+    - "API and web scraping"
+
+  "Statistical and Machine Learning Models":
+    - "Regression models: linear regression, GLM, MLM"
+    - "IRT models: 1-3PL, GRM, NRM, PCM, GPCM"
+    - "Clustering: K-means, latent class analysis, hierarchical clustering"
+    - "Dimension reduction: PCA, exploratory factor analysis"
+    - "Stochastic process models: hidden Markov models"
+
+languages: []
+
+research_interests:
+  - area: "Behavioral Process Data Modeling"
+    description: "I find natural human behaviors magical, modeling and exploring the sequences and patterns of
+    natural human behaviors (e.g. clickstream data from a digital test) is always tons of fun "
+    keywords:
+      - "Log Data"
+      - "Behavioral Patterns"
+      - "Sequence Analysis"
+
+  - area: "LLM in Psychometrics"
+    description: "LLMs are increasingly useful in the field of psychometrics and social science research (probably also other fields I don't know about)."
+    keywords:
+      - "LLM for data augmentation"
+      - "Transformers"
+      - "Structured extraction pipeline"
+

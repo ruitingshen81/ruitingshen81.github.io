@@ -1,0 +1,111 @@
+#-----------------------------------------------#
+# Theme Configuration for Hexo Researcher Theme #
+#-----------------------------------------------#
+
+avatar: /images/headshot-rs.jpg
+favicon: /images/blueberry.ico
+
+menu:
+  - name: CV
+    url: /cv/
+    icon: fa-solid fa-id-card
+  - name: Projects
+    url: /projects/
+    icon: fa-solid fa-project-diagram
+  - name: Contact
+    url: /contact/
+    icon: fa-solid fa-envelope
+
+cv:
+  download_link: /files/Shen_CV_04_14_26.pdf
+
+cv_sections:
+  education: true
+  presentations: true
+  publications: false
+  experience: true
+  skills: true
+  awards: true
+  languages: false
+  teaching: true
+
+about: |
+  I am an incoming Ph.D. student at the <a href="https://edpsych.education.wisc.edu/academics/quantitative-methods/" target="_blank" rel="noopener noreferrer">Quantitative Methods program at UW Madison</a> after
+  recently graduated from the <a href="https://steinhardt.nyu.edu/degree/ms-applied-statistics-social-science-research" target="_blank" rel="noopener noreferrer">A3SR program at NYU</a>.
+  I get very excited about psychometrics measurement research, and doing data management work satisfies my OCD.
+  Outside of work, I do yoga, play chess (sometimes) and work out (inconsistently).
+
+academic_profiles:
+  google_scholar: https://scholar.google.com/citations?hl=en&user=uaFAevoAAAAJ
+  orcid:
+  researchgate:
+  github: https://github.com/ruitingshen81
+  linkedin: https://www.linkedin.com/in/ruiting-shen-ab382a258/
+  twitter:
+
+contact:
+  email: rs8422@nyu.edu
+  phone:
+  address:
+  google_map:
+  office_hours:
+
+share_post:
+  enable: true
+  platforms:
+    twitter: true
+    linkedin: true
+    facebook: false
+    reddit: false
+    weibo: false
+    qq: false
+    wechat: false
+
+google_adsense:
+umami_id:
+baidu_tongji:
+
+ads:
+  enable: false
+  adsterra:
+    js:
+    div_id:
+
+daisyui:
+  default: light
+  enabled:
+    - light
+    - dark
+    # - cupcake
+    # - bumblebee
+    # - emerald
+    # - corporate
+    # - synthwave
+    # - retro
+    # - cyberpunk
+    # - valentine
+    # - halloween
+    # - garden
+    # - forest
+    # - aqua
+    # - lofi
+    # - pastel
+    # - fantasy
+    # - wireframe
+    # - black
+    # - luxury
+    # - dracula
+    # - cmyk
+    # - autumn
+    # - business
+    # - acid
+    # - lemonade
+    # - night
+    # - coffee
+    # - winter
+    # - dim
+    # - nord
+    # - sunset
+    # - caramellatte
+    # - abyss
+    # - silk

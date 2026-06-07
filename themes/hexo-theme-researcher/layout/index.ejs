@@ -1,0 +1,55 @@
+<!-- About Section -->
+<div class="container mx-auto px-4 py-8">
+  <h2 class="text-3xl font-bold mb-8 text-base-content">About</h2>
+
+  <!-- Avatar -->
+  <div class="p-4 text-center border-base-300 flex flex-col items-center cursor-pointer lg:hidden">
+    <div class="avatar mb-4">
+      <div class="w-24 rounded-full ring ring-primary ring-offset-base-100">
+        <img
+          src="<%= url_for(theme.avatar) %>"
+          alt="Profile"
+          class="transition-transform duration-500 hover:rotate-210 cursor-pointer rounded-full ring ring-primary ring-offset-base-100 ring-offset-2 w-24"
+        />
+      </div>
+    </div>
+    <h2 class="text-xl font-bold text-base-content"><%= config.author %></h2>
+    <p class="text-base-content opacity-80"><%= config.subtitle %></p>
+  </div>
+
+  <!--About-->
+  <div class="card glass rounded-box shadow-lg bg-base-100 text-base-content">
+    <div class="card-body">
+      <div class="prose max-w-none text-base">
+        <%- theme.about %>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Research Interests -->
+<% if (site.data.cv && site.data.cv.research_interests) { %>
+<div class="container mx-auto px-4 py-8">
+  <h2 class="text-3xl font-bold mb-8 text-base-content">Research Interests</h2>
+  
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+    <% site.data.cv.research_interests.forEach(function(area) { %>
+      <div class="card glass rounded-box shadow-lg bg-base-100 text-base-content hover:shadow-xl transition-all duration-300">
+        <div class="card-body p-4">
+          <h3 class="card-title text-lg font-bold mb-3"><%= area.area %></h3>
+          <% if (area.description) { %>
+            <p class="text-sm opacity-80 mb-3"><%= area.description %></p>
+          <% } %>
+          <% if (area.keywords && area.keywords.length > 0) { %>
+            <div class="flex flex-wrap gap-1">
+              <% area.keywords.forEach(function(keyword) { %>
+                <span class="badge badge-primary badge-sm"><%= keyword %></span>
+              <% }); %>
+            </div>
+          <% } %>
+        </div>
+      </div>
+    <% }); %>
+  </div>
+</div>
+<% } %>
