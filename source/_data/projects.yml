@@ -1,7 +1,7 @@
 - title: "Understanding the Evolution of the Individual Response Process"
   status: "preprint out"
   period: "2025 - Present"
-  category: "Psychometrics"
+  category: "Process data"
   description: "Identifying item-level heterogeneous behavioral profiles and comparing the item to test stepwise modeling 
   approach to the single step parsimonous test-level modeling approach "
   tags:
@@ -14,8 +14,31 @@
     - name: "Klint Kanopka"
       link : "https://klintkanopka.com/"
       role: "Advisor"
-  publications:
-    - title: "Understanding the evolution of the individual response process: An exploratory approach"
-      link: "https://osf.io/yczgu_v1"
-  website: "https://osf.io/yczgu_v1"
+  website:
+    title: "Preprint link"
+    link: "https://osf.io/yczgu_v1"
+  featured: enable
+
+
+#### project 2####
+- title: "Context-Aware Modeling of Test-Taking Clickstream Data Using a Transformer Model"
+  status: "In progress"
+  period: "2026 - "
+  category: "Process data, transformer"
+  collaborators:
+    - name: "Klint Kanopka"
+      link : "https://klintkanopka.com/"
+    - name: "Lingbo Tong"
+      link: "https://lingbo-t.github.io/"
+    - name: "Kaushik Mohan"
+      link : "https://steinhardt.nyu.edu/degree/phd-statistics-and-computational-social-science/student-experience/kaushik-mohan"
+
+  description: "Representing test-taking clickstream data using embeddings from transformer models"
+  tags:
+    - "Clickstream data"
+    - "Transformer training"
+
+  website:
+    title: "IMPS2026 Talk Slides"
+    link: "https://github.com/ruitingshen81/IMPS26Talk"
   featured: enable

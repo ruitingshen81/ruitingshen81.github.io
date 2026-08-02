@@ -130,17 +130,25 @@
           <% } %>
 
           <!-- Project Links -->
-          <% if (project.website || project.github) { %>
+          <%
+            const websiteLink = typeof project.website === 'string'
+              ? project.website
+              : project.website && project.website.link;
+            const websiteTitle = typeof project.website === 'object' && project.website.title
+              ? project.website.title
+              : 'Link';
+          %>
+          <% if (websiteLink || project.github) { %>
             <div class="flex flex-wrap gap-2 mt-4">
-              <% if (project.website) { %>
+              <% if (websiteLink) { %>
                 <a 
-                  href="<%= project.website %>" 
+                  href="<%= websiteLink %>"
                   target="_blank" 
                   rel="noopener noreferrer" 
                   class="btn btn-sm btn-outline"
                 >
                   <i class="fa-solid fa-link mr-0"></i>
-                  Link
+                  <%= websiteTitle %>
                 </a>
               <% } %>
               <% if (project.github) { %>
